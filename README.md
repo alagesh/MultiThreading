@@ -14,3 +14,4 @@ Course link on Udemy: https://www.udemy.com/java-multithreading/learn/v4/overvie
 1. **Lock** - This example is to showcase how in a multithreaded system, Synchronized Block is faster than Synchronized method. 
 1. **Thread Pool** - Threadpool contains collection of worker threads. Once a thread completes a task in threadpool, it is recycled to complete pending tasks
 1. **CountDown Latch** - Java class to aid in synchronization. Multiple threads wait on the coundown to become 0. <br/>Example of CountDownLatch is similar to catering food where the main thread waits on completion of all individual orders.<br/>
+
