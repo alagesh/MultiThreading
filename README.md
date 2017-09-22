@@ -16,3 +16,4 @@ Course link on Udemy: https://www.udemy.com/java-multithreading/learn/v4/overvie
 1. **CountDown Latch** - Java class to aid in synchronization. Multiple threads wait on the coundown to become 0. <br/>Example of CountDownLatch is similar to catering food where the main thread waits on completion of all individual orders.<br/>
 1. **Producer Consumer** - Implementation of Producer - Consumer pattern, where one/ many threads produces data and stores in shared data structure and other threads are removing/consuming data. Thread safe datastructure used: BlockingQueue
 1. **Wait & Notify** - Wait - calling thread gives up the lock and goes to sleep. Notify - wakes up the first thread which called wait & once the thread finishes the synchronized block , the lock is relinquished. Invoking notify doesn't relinquish the lock.
+1. **Low Level Sync** - Implemented producer consumer pattern using low level synchronization techniques : wait & notify
