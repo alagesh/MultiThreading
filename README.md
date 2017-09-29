@@ -18,12 +18,13 @@ Course link on Udemy: https://www.udemy.com/java-multithreading/learn/v4/overvie
 1. **Wait & Notify** - Wait - calling thread gives up the lock and goes to sleep. Notify - wakes up the first thread which called wait & once the thread finishes the synchronized block , the lock is relinquished. Invoking notify doesn't relinquish the lock.
 1. **Low Level Sync** - Implemented producer consumer pattern using low level synchronization techniques : wait & notify
 1.**Reenterant locks** - Implemented reenterant lock with two theads and used await and signal for synchronization.
+  
   Lock: an object that can only be owned by a single thread at any given time. Basic operations on a lock: acquire & release
-  Lock provides : Mutual Exclusion
-  Condition Variable: Synchronization mechanism needs more than mutual exclusion;
-   also need a way to wait for another thread to do some action.
-   used to wait for a particular condition to become true.
-   methods: wait ( on a condition,lock) , signal (condition,lock), broadcast(condition,lock)
+  Lock provides : **Mutual Exclusion**
+  
+  Condition Variable: Synchronization mechanism needs more than mutual exclusion;also need a way to wait for another thread to do some 	  action.used to wait for a particular condition to become true.  
+  methods: wait (condition,lock) , signal (condition,lock), broadcast(condition,lock)
    https://web.stanford.edu/class/cs140/cgi-bin/lecture.php?topic=locks
-   Disadvantage of Reentrant lock : Deadlock scenario if one of the thread signals but never unlocks 
+   
+   Disadvantage of Reentrant lock : **Deadlock** scenario if one of the thread signals but never unlocks 
    
