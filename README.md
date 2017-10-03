@@ -13,6 +13,7 @@ Course link on Udemy: https://www.udemy.com/java-multithreading/learn/v4/overvie
 1. **Synchronized keyword** - Let's only one thread inside the function at a time.**Avoids:** Race condition
 1. **Lock** - This example is to showcase how in a multithreaded system, Synchronized Block is faster than Synchronized method. 
 1. **Thread Pool** - Threadpool contains collection of worker threads. Once a thread completes a task in threadpool, it is recycled to complete pending tasks
+		```java
 		executor.shutdown();ExecutorService executor = Executors.newCachedThreadPool();
 		executor.submit(new Runnable() {
 			@Override
