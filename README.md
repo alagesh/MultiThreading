@@ -30,5 +30,8 @@ Course link on Udemy: https://www.udemy.com/java-multithreading/learn/v4/overvie
 	1. Mutex- same as lock but can be system wide ( shared by multiple processes)
 	1. Semaphore - same as mutex but allows only x number of threads to enter  (Eg: to limit CPU /IO/RAM usage)
 https://stackoverflow.com/questions/2332765/lock-mutex-semaphore-whats-the-difference?noredirect=1&lq=1
+1. **Callable** - Get results from threads and also allow threads to throw exceptions as opposed to runnable which doesn't do both
+**Future** - allows you to control your threads, checking to see if they are running or not, waiting for results and even interrupting or descheduling them 
+	
    
    
