@@ -24,6 +24,6 @@ Course link on Udemy: https://www.udemy.com/java-multithreading/learn/v4/overvie
   methods: wait (condition,lock) , signal (condition,lock), broadcast(condition,lock)
    https://web.stanford.edu/class/cs140/cgi-bin/lecture.php?topic=locks   
    Disadvantage of Reentrant lock : **Deadlock** scenario if one of the thread signals but never unlocks 
-   1. **Deadlocks** - Situation where two or more threads are blocked forever, waiting for each other.
+1. **Deadlocks** - Situation where two or more threads are blocked forever, waiting for each other.
    
    
