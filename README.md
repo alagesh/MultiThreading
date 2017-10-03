@@ -32,6 +32,7 @@ Course link on Udemy: https://www.udemy.com/java-multithreading/learn/v4/overvie
 https://stackoverflow.com/questions/2332765/lock-mutex-semaphore-whats-the-difference?noredirect=1&lq=1
 1. **Callable** - Get results from threads and also allow threads to throw exceptions as opposed to runnable which doesn't do both.
 **Future** - allows you to control your threads, checking to see if they are running or not, waiting for results and even interrupting or descheduling them 
+1. **Interrupting Threads** - Threads when interupted throws InterruptedException. Another way to check if the thread is interupted is to quiz the thread and check if current thread isInterrupted()
 	
    
    
