@@ -13,15 +13,6 @@ Course link on Udemy: https://www.udemy.com/java-multithreading/learn/v4/overvie
 1. **Synchronized keyword** - Let's only one thread inside the function at a time.**Avoids:** Race condition
 1. **Lock** - This example is to showcase how in a multithreaded system, Synchronized Block is faster than Synchronized method. 
 1. **Thread Pool** - Threadpool contains collection of worker threads. Once a thread completes a task in threadpool, it is recycled to complete pending tasks
-		```java
-		executor.shutdown();ExecutorService executor = Executors.newCachedThreadPool();
-		executor.submit(new Runnable() {
-			@Override
-			public void run() {
-				// TODO Auto-generated method stub
-			}
-		});
-		executor.shutdown();
 1. **CountDown Latch** - Java class to aid in synchronization. Multiple threads wait on the coundown to become 0. <br/>Example of CountDownLatch is similar to catering food where the main thread waits on completion of all individual orders.<br/>
 1. **Producer Consumer** - Implementation of Producer - Consumer pattern, where one/ many threads produces data and stores in shared data structure and other threads are removing/consuming data. Thread safe datastructure used: BlockingQueue
 1. **Wait & Notify** - Wait - calling thread gives up the lock and goes to sleep. Notify - wakes up the first thread which called wait & once the thread finishes the synchronized block , the lock is relinquished. Invoking notify doesn't relinquish the lock.
