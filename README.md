@@ -25,5 +25,10 @@ Course link on Udemy: https://www.udemy.com/java-multithreading/learn/v4/overvie
    https://web.stanford.edu/class/cs140/cgi-bin/lecture.php?topic=locks   
    Disadvantage of Reentrant lock : **Deadlock** scenario if one of the thread signals but never unlocks 
 1. **Deadlocks** - Situation where two or more threads are blocked forever, waiting for each other.
+1. **Semaphores** - Difference between lock , mutex and semaphore
+	1. Lock - one thread at a time enters that's locked  and not shared with other processes.
+	1. Mutex- same as lock but can be system wide ( shared by multiple processes)
+	1. Semaphore - same as mutex but allows only x number of threads to enter  (Eg: to limit CPU usage)
+https://stackoverflow.com/questions/2332765/lock-mutex-semaphore-whats-the-difference?noredirect=1&lq=1
    
    
